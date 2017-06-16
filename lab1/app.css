@@ -1,0 +1,81 @@
+html{
+	background-color: lightblue;
+	height:100%;
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav{
+	text-decoration: none;
+}
+h1{
+	font-family: 'fira code';
+	font-size: 60px;
+	color:pink;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+h2{
+	font-size:30px;
+	font-family: cursive;
+	margin-top: 50px;
+}
+
+p{
+	font-size:20px;
+	font-style:italic;
+	font-weight: bold;
+	line-height: 1.8;
+}
+
+
+.home-button,.button1,.button2,.button3{
+	background-color: white;
+	border-radius: 12px;
+	font-size: 16px;
+
+
+}
+.home-button,.button1,.button2,.button3:hover{
+	color:red;
+}
+
+table,th,td{
+	border:2px solid grey;
+	border-collapse: collapse;
+	display: table-cell;
+	text-align:center;
+	
+
+	
+}
+.description-table-size{
+	width:30%;
+}
+.price-table-size{
+	width:10%;
+}
+
+.test{
+	text-align: center;
+
+}
+
+.place-order{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+footer{
+	margin-top: 50px;
+	float:right;
+
+}
+
+
+
