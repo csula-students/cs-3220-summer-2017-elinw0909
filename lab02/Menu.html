@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- character encoding -->
+	<meta charset="UTF-8">
+	<title>My website</title>
+	<link rel="stylesheet" href="app.css">
+</head>
+
+<body>	
+	<header>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTXZPKBEwwl98SeZQrqGXidyHNrG4BASJobfoGlGtnP57uKgiGEw" alt="" width="200" height="100">
+		<h1>Food Lovers</h1>
+		<span class="fill"></span>
+		<nav>
+			<button class="home-button"><a href="index.html">Home</a></button>
+			|
+			<button class="button1"><a href = "Menu.html">Menu</a></button>
+			|
+			<button class="button2"><a href ="Checkout.html">Checkout</a></button>	
+			|
+			<button class="button3"><a href = "Statuses.html">Status</a></button>
+		</nav>
+		
+	</header>
+
+	<table>
+		<p>Menu</p>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Picture</th>
+				<th>Ingredients</th>
+				<th class = "description-table-size">Description</th>
+				<th class = "price-table-size">Price</th>
+				<th>Add to shopping car</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Hamburger</td>
+				<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmMa_lyOMMxVr4nKnhDdP1PMH0fIPbwALdOK9pOTUVPi0JLBIE" alt=""></td>
+				<td><ul>
+					<li>bread</li>
+					<li>beef</li>
+					<li>vegetables</li>
+				</ul>
+			</td>
+			<td>A hamburger or burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. A hamburger topped with a slice of cheese is called cheeseburger</td>
+			<td>$9.99</td>
+			<td><button><a class="checkout-button" data-name = " Hamburger" data-price = "9.99" data-quantity = "1" href="Checkout.html" >Add to Cart</a>
+			</button></td>
+		</tr>
+		
+		<tr>
+			<td>pizza</td>
+			<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/440px-Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="" height="200" width="250"></td>
+			<td><ul>
+				<li>tomato sauce</li>
+				<li>cheese</li>
+				<li>toppings</li>
+			</ul>
+		</td>
+		<td>Pizza is a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven</td>
+		<td>$9.99</td>
+		<td><button><a class="checkout-button" data-name = "Pizza" data-price = "9.99" data-quantity = "1" href="Checkout.html" >Add to Cart</a>
+		</button></td>
+	</tr>
+	<tr>
+		<td>chipotle</td>
+		<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrmkHXlNjm2rfiAW9jxvhBXk491ggfBTlikTFzDZ5tIjtRTBdiTg" alt=""></td>
+		<td><ul>
+			<li>barbacoa</li>
+			<li>beans</li>
+			<li>vegetables</li>
+		</ul>
+	</td>
+	<td>Most health food</td>
+	<td>$9.99</td>
+	<td><button><a class="checkout-button" data-name = "chipotle" data-price = "9.99" data-quantity = "1" href="Checkout.html" >Add to Cart</a>
+	</button></td>
+</tr>
+
+</tbody>
+</table>
+</body>
+
+<footer>
+	<h5> © 2017 Food Lover Inc., All Rights Reserved</h5>
+</footer>
+<script src="app.js"></script>
+</html>
