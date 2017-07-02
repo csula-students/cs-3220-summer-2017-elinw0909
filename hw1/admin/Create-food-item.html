@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- character encoding -->
+	<meta charset="UTF-8">
+	<title>My website</title>
+	<link rel="stylesheet" href="app.css">
+</head>
+
+<body>	
+	<header>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTXZPKBEwwl98SeZQrqGXidyHNrG4BASJobfoGlGtnP57uKgiGEw" alt="" width="200" height="100">
+		<h1>Food Lovers</h1>
+		<nav>
+			<button class="home-button"><a href="index.html">Home</a></button>
+			|
+			<button class="button1"><a href = "Menu.html">Menu</a></button>
+			|
+			<button class="button2"><a href ="Checkout.html">Checkout</a></button>	
+			|
+			<button class="button3"><a href = "Statuses.html">Status</a></button>
+			|
+			<button class="button6"><a href = "Create-food-item.html">Create Food</a></button>
+			|
+			<button class="button4"><a href = "inventory.html">Inventory</a></button>
+		</nav>
+	</header>
+	
+	<table class = "create-food-table">
+		<p>Create New Food</p>
+		<tr>
+			<td>
+				<h3>Food Name
+				<input type="text" name="name" id="item_name"></input></h3>
+				
+				<h3>Image Link
+				<input type="url" name="image" id="item_image"></input></h3>
+				
+				<h3>Food Ingredients
+				<input type="text" id="food_description" name="description" rows="10"></input></h3>
+				
+				<h3>Food Description
+				<input type="text" id="food_description" name="description" rows="10"></input></h3>
+				
+				<h3>Food Price
+				<input type="number" id="item_price" name="price"></input></h3>
+                
+                <button><a class = "add-food-button" data-date = "7/1/2017" data-price = "9.99" href="inventory.html">Add to inventory</button>
+
+			</td>
+		</tr>
+</table>
+
+
+</table>
+</body>
+
+<footer>
+	<h5> © 2017 Food Lover Inc., All Rights Reserved</h5>
+</footer>
+<script src="apphw1.js"></script>
+</html>
